@@ -1,0 +1,15 @@
+.apr-same {
+  background-color: #b7f7b7 !important; /* green */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.apr-changed {
+  background-color: #ffe97a !important; /* yellow */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.apr-debug {
+  outline: 2px dashed red;
+}
