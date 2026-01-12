@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "APR Compare Highlighter",
+  "version": "1.0",
+  "description": "Highlights changed/new APR values compared with last year.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://mychild.goodneighbors.org/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
